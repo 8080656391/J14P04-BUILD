@@ -1,0 +1,26 @@
+{
+  "name": "j14p04-build",
+  "version": "1.0.0",
+  "description": "Library System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8080656391/J14P04-BUILD.git"
+  },
+  "author": "savita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8080656391/J14P04-BUILD/issues"
+  },
+  "homepage": "https://github.com/8080656391/J14P04-BUILD#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
