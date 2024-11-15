@@ -58,4 +58,7 @@ GET: Get all issued books with their fine
 
 ...data "data": { ## "name": "rohan", ## "surname": "kinnal" }
 
-name: rohan surname: kinnal email: user@email.com subscriptioType: "Premium"
+name: rohan 
+surname: kinnal 
+email: user@email.com 
+subscriptioType: "Premium"
