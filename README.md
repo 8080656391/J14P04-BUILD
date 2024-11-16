@@ -54,11 +54,46 @@ GET: Get all issued books with their fine
 
 ## npm i nodemon --save-dev
 
-...each ## "name": "Jane", ## "surname": "Doe", "email": "user@email.com", "subscriptionType": "Premium", "subscriptionDate": "01/01/2022"
+...each 
+   ## "name": "Jane", 
+   ## "surname": "Doe", 
+   "email": "user@email.com", 
+   "subscriptionType": "Premium", 
+   "subscriptionDate": "01/01/2022"
 
-...data "data": { ## "name": "rohan", ## "surname": "kinnal" }
+...data 
+   "data": { 
+    ## "name": "rohan",
+    ## "surname": "kinnal" 
+    }
 
 name: rohan 
 surname: kinnal 
 email: user@email.com 
 subscriptioType: "Premium"
+
+const index = users.indexOf(user); 
+users.splice(index,1)
+
+var class = ["six", "seven", "eight"]; 
+indexOf() class.indexOf("seven") 1
+
+
+<!-- Jan 1 1970 UTC  //Millsecs -->
+
+new Date
+Sat Nov 16 2024 12:00:54 GMT+0530 (India Standard Time)
+new Date("01/01/1999")
+Fri Jan 01 1999 00:00:00 GMT+0530 (India Standard Time)
+const date = new Date("01/01/1999");
+undefined
+date
+Fri Jan 01 1999 00:00:00 GMT+0530 (India Standard Time)
+Math.floor(date/1000*60*60*24);
+79067145600000
+Math.floor(date/(1000*60*60*24));
+10591
+let dateNew = new Date();
+undefined
+Math.floor(dateNew/(1000*60*60*24));
+20043
